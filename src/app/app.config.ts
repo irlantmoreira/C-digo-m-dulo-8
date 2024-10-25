@@ -8,11 +8,11 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
     provideAuth0({
-      domain: 'dev-vdr7u144b0j680bm.us.auth0.com',
-      clientId: 'K5n6pS73nDpNks7KZ7Wpdu3d3QfE6HEP',
+      domain: 'SEU-DOMINIO',
+      clientId: 'SEU-CLIENT-ID',
       authorizationParams: {
         redirect_uri: window.location.origin,
-        audience: 'https://dev-vdr7u144b0j680bm.us.auth0.com/api/v2/',
+        audience: 'SEU-AUDIENCE',
         scope: 'openid profile email offline_access',
       },
       useRefreshTokens: true,
